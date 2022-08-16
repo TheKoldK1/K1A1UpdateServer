@@ -1,3 +1,6 @@
+## Test Update Server V1.25
+- Remove all files
+
 ## Test Update Server V1.2
 - Removed voice files
 
