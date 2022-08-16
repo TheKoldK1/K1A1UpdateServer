@@ -1,3 +1,2 @@
-delete disk/bb3/voices/English/SonicVoice.ar.00
-delete disk/bb3/voices/English/SonicVoice.arl
+delete disk
 add mod.ini
