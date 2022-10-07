@@ -1,2 +1,2 @@
-delete disk
+add core_su_phy
 add mod.ini
