@@ -12,8 +12,8 @@ delete main_mod/disk/bb/#cte200.ar.00
 delete main_mod/disk/bb/#cte200.arl
 delete main_mod/disk/bb/ActionCommon.ar.00
 delete main_mod/disk/bb/ActionCommon.arl
-delete main_mod/disk/bb/SystemCommon.ar.00
-delete main_mod/disk/bb/SystemCommon.arl
+delete main_mod/disk/bb/#SystemCommon.ar.00
+delete main_mod/disk/bb/#SystemCommon.arl
 delete main_mod/disk/bb/cte_cmn.ar.00
 delete main_mod/disk/bb/cte_cmn.ar.01
 delete main_mod/disk/bb/cte_cmn.ar.02
