@@ -1,0 +1,244 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Gameplay",
+         "Elements": [
+			{
+               "Name": "IncludeDir0",
+               "DisplayName": "Button Icons",
+               "Description": [
+                  "Determine the button prompts for the Jump Selectors",
+               ],
+               "Type": "IconEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_ps3"
+            },
+			
+			
+			{
+               "Name": "IncludeDir1",
+               "DisplayName": "DLC Edition",
+               "Description": [
+                  "Challenge yourself in the DLC Experience of the UP Addon",
+               ],
+               "Type": "DLCEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_dummy"
+            },
+												
+			
+			{
+               "Name": "IncludeDir4",
+               "DisplayName": "Unleashed Physics",
+               "Description": [
+                  "Enable Unleashed Physics",
+               ],
+               "Type": "PhysicsEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_su_phy"
+            },
+			
+			
+			{
+               "Name": "IncludeDir6",
+               "DisplayName": "Medal Type",
+               "Description": [
+                  "Determine which medal you want to use in the HUB World and in stages",
+               ],
+               "Type": "MedalEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_dummy"
+            },						
+         ],
+      },
+	  {
+         "Name": "Main",
+         "DisplayName": "Miscellaneous",
+         "Elements": [
+			{
+               "Name": "IncludeDir2",
+               "DisplayName": "World Map Music ",
+               "Description": [
+                  "Enable world map music in the HUB world",
+               ],
+               "Type": "MusicEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_hub_bgm"
+            },
+			
+			
+			{
+               "Name": "IncludeDir3",
+               "DisplayName": "Sonic Unleashed Startup Recreation",
+               "Description": [
+                  "Enable my Sonic Unleashed Startup Recreation Mod",
+               ],
+               "Type": "StartupEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_su_startup"
+            },						
+         ],
+      },
+	  {
+         "Name": "Main",
+         "DisplayName": "Graphics Card",
+         "Elements": [			
+			{
+               "Name": "IncludeDir5",
+               "DisplayName": "RTX Fix",
+               "Description": [
+                  "Enable the RTX Fix for Unleashed Project (Enable this if you're using Direct3D 9 Ex)",
+               ],
+               "Type": "RTXEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_dummy"
+            },
+         ],
+      },
+   ],
+   "Enums": {
+      "IconEnum": [
+          {
+            "DisplayName": "PlayStation 3",
+            "Value": "main_ps3",
+            "Description": [
+               "Use PlayStation 3 button prompts",
+            ],
+         },
+         
+         {
+            "DisplayName": "XBOX 360",
+            "Value": "main_dummy",
+            "Description": [
+               "Use Xbox 360 button prompts",
+            ],
+         },
+         
+      ],
+	  "MusicEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_hub_bgm",
+            "Description": [
+               "Enable World Map Music",
+            ],
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable World Map Music",
+            ],
+         },
+         
+      ],
+	  "StartupEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_su_startup",
+            "Description": [
+               "Enable Sonic Unleashed Startup Recreation",
+            ],
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable Sonic Unleashed Startup Recreation",
+            ],
+         },
+         
+      ],
+	  "PhysicsEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_su_phy",
+            "Description": [
+               "Enable Unleashed Physics",
+            ],
+         },
+		 
+		 {
+            "DisplayName": "Enable w/ QTE-like Physics",
+            "Value": "main_su_phy_qte",
+            "Description": [
+               "Use Physics with the trick speed similar to the QTE in Unleashed(MAKE SURE TRICK MASTERY SKILL IS ENABLED)",
+            ],
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable Unleashed Physics",
+            ],
+         },
+         
+      ],
+	  "RTXEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_rtx",
+            "Description": [
+               "Enable RTX Fix",
+            ],
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable RTX Fix",
+            ],
+         },
+         
+      ],
+	  "MedalEnum": [
+          {
+            "DisplayName": "Sun Medal",
+            "Value": "main_dummy",
+            "Description": [
+               "Use Sun Medals",
+            ],
+         },
+         
+         {
+            "DisplayName": "Moon Medal",
+            "Value": "main_moon",
+            "Description": [
+               "Use Moon Medals",
+            ],
+         },
+         
+      ],
+	  "DLCEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_dlc",
+            "Description": [
+               "Enable DLC Edition",
+            ],
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable DLC Edition",
+            ],
+         },
+         
+      ],
+   },
+   "IniFile": "mod.ini"
+}
